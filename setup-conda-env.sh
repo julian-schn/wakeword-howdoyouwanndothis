@@ -24,11 +24,12 @@ else
     pip install mutagen torchinfo torchmetrics speechbrain audiomentations torch-audiomentations
     pip install acoustics onnxsim onnx onnx_graphsurgeon sng4onnx
     pip install pronouncing datasets deep-phonemizer
-    pip install piper-tts piper-phonemize webrtcvad
+    pip install piper-phonemize-cross webrtcvad
     
     python -m ipykernel install --user --name=wakeword_trainer --display-name="WakeWord Trainer"
     echo "✅ Environment setup complete!"
 fi
 
-# Launch Jupyter
-jupyter notebook
+echo "============================================================"
+echo "Remember to run conda activate wakeword_trainer now"
+echo ""
